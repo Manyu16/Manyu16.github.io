@@ -1,0 +1,45 @@
+.profile-container {
+    background-color: #000; /* Black background */
+    color: #ddd; /* Light grey text color */
+    padding: 2rem;
+    max-width: 400px; /* Control width for readability */
+    margin: 2rem auto; /* Center the content */
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  .profile-text {
+    margin-bottom: 1.5rem; /* Add space between paragraphs */
+    white-space: pre-line; /* Preserve line breaks */
+  }
+  
+  .profile-container p {
+    margin: 0;
+    text-align: justify;
+    position: relative;
+    top: 50px;
+    left: 350px;
+  }
+  .aboutImage img{
+    height: 700px;
+    width: 800px;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    opacity: 60%;
+    z-index: 1;
+  }
+  .profile-container h1{
+    position: absolute;
+    font-size: 38pt;
+    top: 150px;
+    left: 100px;
+    text-align: left;
+  }
+
+  .profile-container h1:hover{
+    color: #ff4d4d;
+    transition: color 0.3s ease;
+    cursor: default;
+}

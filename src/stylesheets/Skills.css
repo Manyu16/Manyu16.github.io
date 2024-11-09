@@ -1,0 +1,58 @@
+/* .SkillsPage{
+    background-image: url("../assets/Skills_Page_Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+} */
+.SkillsPage img{
+    opacity: 0.3;
+    position:absolute;
+    top: 100px;
+    right: 10px;
+    z-index: -1;
+}
+.SkillsPage h1{
+    position: relative;
+    text-align: center;
+    font-size: 38pt;
+}
+.SkillsPage h1:hover{
+    color: #ff4d4d;
+    transition: color 0.3s ease;
+    cursor: default;
+}
+.skill_body{
+    font-size: 13pt;
+    max-width: 300px; /* Control width for readability */
+    margin: 2rem auto;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+#skill_title{
+    font-weight: bold;
+    font-size: 15pt;
+    text-align: center;
+}
+#skill_title:hover{
+    color: #ff4d4d;
+    transition: color 0.3s ease;
+    cursor: default;
+}
+.skill_1{
+    position: absolute;
+    top: 400px;
+    left: 265px;
+}
+.skill_2{
+    position: absolute;
+    top: 400px;
+    left: 710px;
+}
+.skill_3{
+    position: absolute;
+    top: 400px;
+    right: 210px;
+}

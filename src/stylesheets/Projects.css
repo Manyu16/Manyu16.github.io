@@ -1,0 +1,58 @@
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 38pt;
+    animation: fadeIn 5s ease forwards;
+}
+
+#project_title{
+    font-weight: bold;
+    font-size: 15pt;
+    text-align: center;
+}
+#project_title:hover, h1:hover{
+    color: #ff4d4d;
+    transition: color 0.3s ease;
+    cursor: default;
+}
+.project_body{
+    font-size: 13pt;
+    max-width: 600px; /* Control width for readability */
+    margin: 2rem auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+.ProjectsPage img{
+    z-index: -1;
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    height: 700px;
+    width: 1440px;
+    opacity: 0.3;
+}
+.project_1{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.project_2{
+    position: absolute;
+    top: 250px;
+    right: 150px;
+}
+.project_3{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    z-index: 2;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
