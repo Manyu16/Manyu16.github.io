@@ -5,8 +5,8 @@
     opacity: 40%;
     position: absolute;
     top: 350px;
-    left: 750px;
-    z-index: 1;
+    left: 630px;
+    z-index: -1;
 }
 #greetings{
     font-size: 19pt;
@@ -62,7 +62,7 @@
     text-align: end;
     position: relative;
     right: 60px;
-    bottom: 500px;
+    bottom: 600px;
     padding: 10px;
     font-weight: bold;
     animation: fadeIn 5s ease forwards;
@@ -78,7 +78,7 @@
     font-size: 13pt;
     position: relative;
     right: 50px;
-    bottom: 575px;
+    bottom: 695px;
     text-align: end;
     font-weight: lighter;
     padding-top: 0;
@@ -95,7 +95,7 @@
     font-weight: bold;
     position: absolute;
     left: 70px;
-    bottom: 150px;
+    bottom: 100px;
     transition: background-color 0.3s ease;
   }
   
