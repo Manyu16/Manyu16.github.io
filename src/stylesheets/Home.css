@@ -35,6 +35,7 @@
   color: #ff4d4d;
   transition: color 0.3s ease;
   cursor: default;
+  animation: fadeIn 5s ease forwards;
 }
 #JobTitle{
     font-size: 19pt;
@@ -44,6 +45,7 @@
     top: 50px;
     left: 70px;
     text-align: left;
+    animation: fadeIn 5s ease forwards;
 }
 #description{
     font-size: 12pt;
@@ -52,6 +54,7 @@
     left: 70px;
     text-align: justify;
     line-height: 1;
+    animation: fadeIn 5s ease forwards;
 }
 
 #stats{
@@ -62,12 +65,14 @@
     bottom: 500px;
     padding: 10px;
     font-weight: bold;
+    animation: fadeIn 5s ease forwards;
 }
 #plus{
     font-size: 50pt;
     font-weight: bold;
     position: relative;
     color: #ff4d4d;
+    animation: fadeIn 5s ease forwards;
 }
 #statsInfo{
     font-size: 13pt;
@@ -77,6 +82,7 @@
     text-align: end;
     font-weight: lighter;
     padding-top: 0;
+    animation: fadeIn 5s ease forwards;
 }
 .contact-button {
     background-color: #ff4a4a; /* Red background */
@@ -140,4 +146,12 @@
   .close-button:hover {
     background-color: #e03e3e;
     z-index: 2;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
